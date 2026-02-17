@@ -173,21 +173,24 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </div>
     </div>
 
-    <!-- Sticky WhatsApp Button -->
-    <a href="https://api.whatsapp.com/send/?phone=919056544487&text&type=phone_number&app_absent=0" 
-       target="_blank" 
-       class="float-btn pulse-wa fixed bottom-24 right-6 z-[90] bg-[#25D366] text-white w-14 h-14 rounded-full flex items-center justify-center text-2xl shadow-2xl md:bottom-8 md:right-24"
-       aria-label="Contact on WhatsApp">
-        <i class="fab fa-whatsapp"></i>
-    </a>
+    <!-- Sticky Buttons Container -->
+    <div class="fixed right-6 bottom-8 z-[90] flex flex-col gap-4 md:right-16 lg:right-24 xl:right-32">
+        <!-- Back to Top Button -->
+        <button id="backToTop" 
+                onclick="window.scrollTo({top: 0, behavior: 'smooth'})"
+                class="float-btn bg-white text-slate-900 w-14 h-14 rounded-full flex items-center justify-center text-xl shadow-2xl border border-slate-100"
+                aria-label="Back to Top">
+            <i class="fas fa-arrow-up"></i>
+        </button>
 
-    <!-- Back to Top Button -->
-    <button id="backToTop" 
-            onclick="window.scrollTo({top: 0, behavior: 'smooth'})"
-            class="float-btn fixed bottom-8 right-6 z-[90] bg-white text-slate-900 w-14 h-14 rounded-full flex items-center justify-center text-xl shadow-2xl border border-slate-100"
-            aria-label="Back to Top">
-        <i class="fas fa-arrow-up"></i>
-    </button>
+        <!-- WhatsApp Button -->
+        <a href="https://api.whatsapp.com/send/?phone=919056544487&text&type=phone_number&app_absent=0" 
+           target="_blank" 
+           class="float-btn pulse-wa bg-[#25D366] text-white w-14 h-14 rounded-full flex items-center justify-center text-2xl shadow-2xl"
+           aria-label="Contact on WhatsApp">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+    </div>
 
     <!-- Navigation -->
     <header class="fixed top-0 w-full z-50 glass-header overflow-x-hidden">
@@ -248,10 +251,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     </div>
 
                     <h1 class="text-5xl sm:text-6xl lg:text-7xl font-extrabold text-white leading-[1] mb-8">
-                        Expert <span class="text-orange-400">Product Testing Services</span> Aligned with Global Standards 
+                        Leading <span class="text-orange-400">Product Testing Lab</span> for Global Standards
                     </h1>
                     <p class="text-lg text-slate-300 mb-10 leading-relaxed max-w-xl">
-                        Ensuring your products meet global standards through <strong style="color:white;">Onsite EMC/EMI, Medical Device, and Industrial Machinery testing.</strong> Accredited, reliable, and manufacturer-focused.
+                        Ensuring your products meet global standards through Onsite EMC/EMI, Medical Device, and Industrial Machinery testing. Accredited, reliable, and manufacturer-focused.
                     </p>
                     <div class="flex flex-wrap gap-4">
                         <a href="#contact" class="px-8 py-4 bg-accent text-white hover:text-slate-900 rounded-xl font-bold shadow-xl shadow-accent/30 hover:bg-white transition text-center w-full sm:w-auto">Start Testing Inquiry</a>
@@ -281,8 +284,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <section class="py-12 bg-white border-b border-slate-100">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 overflow-x-hidden">
             <div class="flex flex-col lg:flex-row items-center justify-between gap-8" data-aos="fade-up">
-                <span class="text-[10px] font-black uppercase tracking-[0.3em] text-slate-500">Accredited By:</span>
-                <div class="flex flex-wrap justify-center gap-10 font-black text-slate-400 text-xl italic opacity-80">
+                <span class="text-[10px] font-black uppercase tracking-[0.3em] text-black">Accredited By:</span>
+                <div class="flex flex-wrap justify-center gap-10 font-black text-black text-xl italic opacity-80">
                     <span class="hover:text-primary transition cursor-default">NABL</span>
                     <span class="hover:text-primary transition cursor-default">ISO 17025</span>
                     <span class="hover:text-primary transition cursor-default">BIS</span>
@@ -474,7 +477,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- Contact Section -->
     <section id="contact" class="py-24 bg-white">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 overflow-x-hidden">
-            <div class="bg-slate-900 rounded-[3rem] overflow-hidden shadow-2xl" data-aos="flip-up">
+            <div class="bg-blue-950 rounded-[3rem] overflow-hidden shadow-2xl" data-aos="flip-up">
                 <div class="grid lg:grid-cols-2">
                     <div class="p-12 lg:p-20 text-white" data-aos="fade-right" data-aos-delay="200">
                         <h2 class="text-4xl font-extrabold mb-8">Request a Technical Consultation</h2>
@@ -492,7 +495,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                             </div>
                         </div>
                     </div>
-                    <div class="bg-slate-800/50 p-12 lg:p-20" data-aos="fade-left" data-aos-delay="400">
+                    <div class="bg-blue-900/50 p-12 lg:p-20" data-aos="fade-left" data-aos-delay="400">
                         <form id="contactForm" class="space-y-6">
                             <div class="grid md:grid-cols-2 gap-6">
                                 <div>
